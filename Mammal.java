@@ -1,7 +1,7 @@
 public class Mammal {
     protected int energyLevel;
     public Mammal() {
-        energyLevel = 300;
+        energyLevel = 100;
     }
     public Integer displayEnergy() {
         System.out.println(energyLevel);

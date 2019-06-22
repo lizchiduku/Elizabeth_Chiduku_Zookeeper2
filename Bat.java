@@ -1,4 +1,7 @@
 public class Bat extends Mammal {
+    public Bat() {
+        energyLevel = 300;
+    }
     public void fly1() {
         System.out.println("Boosh, Boosh, Boosh.");
         energyLevel -= 50;
